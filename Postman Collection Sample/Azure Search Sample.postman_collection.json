@@ -1,0 +1,545 @@
+{
+	"info": {
+		"_postman_id": "a8b39f8f-b3ea-42be-8e85-2cd3437c2590",
+		"name": "Azure Search (Personal)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "datasources?api-version=2019-05-06",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "api-key",
+						"type": "text",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/datasources?api-version=2019-05-06",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"datasources"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "datasources?api-version=2019-05-06",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "api-key",
+						"type": "text",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"starwars-characters-cosmos-datasource\",\r\n    \"type\": \"cosmosdb\",\r\n    \"credentials\": {\r\n        \"connectionString\": \"AccountEndpoint=https://e555c6c3-0ee0-4-231-b9ee.documents.azure.com:443/;AccountKey=8sOXchr7SoDdjvONaLIlLdrokuxf3iB3fxq3cWClXbrQi6dcXPUwsC8JyNrSFETfCXHB4ngYA8O1hGf2f36SwQ==;Database=dev-cosmos-demo-sql\"\r\n    },\r\n    \"container\": {\r\n        \"name\": \"starwars-characters\",\r\n        \"query\" : \"SELECT c.id, c.people.first_name, c.people.last_name, c.people.eyeColor, c.people.gender, c.people.height, c.people.eye_color FROM c\"\r\n    }\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/datasources?api-version=2019-05-06",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"datasources"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "datasources/[datasource-name]?api-version=2019-05-06",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "api-key",
+						"type": "text",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"customer-indexer-chl\",\r\n    \"dataSourceName\": \"customer-cosmos-dev-db\",\r\n    \"targetIndexName\": \"customers-index-chl\",\r\n    \"fieldMappings\": [\r\n        {\r\n            \"sourceFieldName\": \"id\",\r\n            \"targetFieldName\": \"CustomerId\"\r\n        },\r\n        {\r\n            \"sourceFieldName\": \"/customerDetail/firstName\",\r\n            \"targetFieldName\": \"firstName\"\r\n        }\r\n    ],\r\n     \"parameters\" : { \"configuration\" : { \"parsingMode\" : \"json\" } }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/datasources/starwars-characters-cosmos-datasource?api-version=2019-05-06",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"datasources",
+						"starwars-characters-cosmos-datasource"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indexes?api-version=2019-05-06",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "api-key",
+						"type": "text",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/indexes?api-version=2019-05-06",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"indexes"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indexes?api-version=2019-05-06",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "api-key",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"star-wars-characters-index\",\r\n    \"fields\": [\r\n        {\r\n            \"name\": \"characterId\",\r\n            \"type\": \"Edm.String\",\r\n            \"key\": true,\r\n            \"searchable\": true\r\n        },\r\n        {\r\n            \"name\": \"firstName\",\r\n            \"type\": \"Edm.String\",\r\n            \"searchable\": true,\r\n            \"sortable\" : true\r\n        },\r\n                {\r\n            \"name\": \"lastName\",\r\n            \"type\": \"Edm.String\",\r\n            \"searchable\": true,\r\n            \"sortable\" : true\r\n        },\r\n        {\r\n            \"name\": \"eyeColor\",\r\n            \"type\": \"Edm.String\",\r\n            \"searchable\": true,\r\n            \"sortable\" : true\r\n        },\r\n        {\r\n            \"name\": \"gender\",\r\n            \"type\": \"Edm.String\",\r\n            \"searchable\": true,\r\n            \"sortable\" : true,\r\n            \"filterable\": true\r\n        },\r\n        {\r\n            \"name\": \"height\",\r\n            \"type\": \"Edm.Int32\",\r\n            \"searchable\": false,\r\n            \"sortable\" : true,\r\n            \"filterable\": true\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/indexes?api-version=2019-05-06",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"indexes"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indexes?api-version=2019-05-06",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "api-key",
+						"type": "text",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/indexes/star-wars-characters-index?api-version=2019-05-06",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"indexes",
+						"star-wars-characters-index"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indexers?api-version=2019-05-06",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "api-key",
+						"type": "text",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/indexers?api-version=2019-05-06",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"indexers"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indexers?api-version=2019-05-06",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "api-key",
+						"type": "text",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"starwars-indexer\",\r\n    \"dataSourceName\": \"starwars-characters-cosmos-datasource\",\r\n    \"targetIndexName\": \"star-wars-characters-index\",\r\n    \"fieldMappings\": [\r\n        {\r\n            \"sourceFieldName\": \"id\",\r\n            \"targetFieldName\": \"characterId\"\r\n        },\r\n        {\r\n            \"sourceFieldName\": \"first_name\",\r\n            \"targetFieldName\": \"firstName\"\r\n        },\r\n        {\r\n            \"sourceFieldName\": \"last_Name\",\r\n            \"targetFieldName\": \"lastName\"\r\n        },\r\n        {\r\n            \"sourceFieldName\": \"eye_color\",\r\n            \"targetFieldName\": \"eyeColor\"\r\n        },\r\n        {\r\n            \"sourceFieldName\": \"gender\",\r\n            \"targetFieldName\": \"gender\"\r\n        },\r\n        {\r\n            \"sourceFieldName\": \"height\",\r\n            \"targetFieldName\": \"height\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/indexers?api-version=2019-05-06",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"indexers"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indexers/[indexer-name]?api-version=2019-05-06",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "api-key",
+						"type": "text",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/indexers/starwars-indexer?api-version=2019-05-06",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"indexers",
+						"starwars-indexer"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indexes/star-wars-characters-index/docs?api-version=2019-05-06&search=*",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "api-key",
+						"type": "text",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD"
+					}
+				],
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/indexes/star-wars-characters-index?api-version=2019-05-06&search=*",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"indexes",
+						"star-wars-characters-index"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						},
+						{
+							"key": "search",
+							"value": "*"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "indexes/star-wars-characters-index/docs?api-version=2019-05-06&search=*",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "api-key",
+						"value": "8585F9E40DBADDDCCB8B03CC&&RGFHDD",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://demo-search-3jamlwx.search.windows.net/indexes/star-wars-characters-index/docs?api-version=2019-05-06&search=*&%24filter=gender%20eq%20'female'%20and%20height%20gt%20165",
+					"protocol": "https",
+					"host": [
+						"demo-search-3jamlwx",
+						"search",
+						"windows",
+						"net"
+					],
+					"path": [
+						"indexes",
+						"star-wars-characters-index",
+						"docs"
+					],
+					"query": [
+						{
+							"key": "api-version",
+							"value": "2019-05-06"
+						},
+						{
+							"key": "search",
+							"value": "*"
+						},
+						{
+							"key": "%24filter",
+							"value": "gender%20eq%20'female'%20and%20height%20gt%20165"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
