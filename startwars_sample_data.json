@@ -1,0 +1,300 @@
+[
+    {
+        "people": {
+            "first_name": "Luke",
+            "last_name": "Skywalker",
+            "height": "172",
+            "mass": "77",
+            "hair_color": "blond",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "19BBY",
+            "gender": "male",
+            "homeworld": "http://swapi.co/api/planets/1/",
+            "films": [
+                "http://swapi.co/api/films/6/",
+                "http://swapi.co/api/films/3/",
+                "http://swapi.co/api/films/2/",
+                "http://swapi.co/api/films/1/",
+                "http://swapi.co/api/films/7/"
+            ],
+            "species": [
+                "http://swapi.co/api/species/1/"
+            ],
+            "vehicles": [
+                "http://swapi.co/api/vehicles/14/",
+                "http://swapi.co/api/vehicles/30/"
+            ],
+            "starships": [
+                "http://swapi.co/api/starships/12/",
+                "http://swapi.co/api/starships/22/"
+            ],
+            "created": "2014-12-09T13:50:51.644000Z",
+            "edited": "2014-12-20T21:17:56.891000Z",
+            "url": "http://swapi.co/api/people/1/",
+            "desc": [
+                "Luke Skywalker is a fictional character and the main protagonist of the original film trilogy of the Star Wars franchise created by George Lucas. The character, portrayed by Mark Hamill, is an important figure in the Rebel Alliance's struggle against the Galactic Empire. He is the twin brother of Rebellion leader Princess Leia Organa of Alderaan, a friend and brother-in-law of smuggler Han Solo, an apprentice to Jedi Masters Obi-Wan \"Ben\" Kenobi and Yoda, the son of fallen Jedi Anakin Skywalker (Darth Vader) and Queen of Naboo/Republic Senator Padmé Amidala and maternal uncle of Kylo Ren / Ben Solo. The now non-canon Star Wars expanded universe depicts him as a powerful Jedi Master, husband of Mara Jade, the father of Ben Skywalker and maternal uncle of Jaina, Jacen and Anakin Solo.",
+                "In 2015, the character was selected by Empire magazine as the 50th greatest movie character of all time.[2] On their list of the 100 Greatest Fictional Characters, Fandomania.com ranked the character at number 14.[3]"
+            ]
+        }
+    },
+    {
+        "people": {
+            "first_name": "Obi-Wan",
+            "last_name": "Kenobi",
+            "height": "182",
+            "mass": "77",
+            "hair_color": "auburn, white",
+            "skin_color": "fair",
+            "eye_color": "blue-gray",
+            "birth_year": "57BBY",
+            "gender": "male",
+            "homeworld": "http://swapi.co/api/planets/20/",
+            "films": [
+                "http://swapi.co/api/films/5/",
+                "http://swapi.co/api/films/4/",
+                "http://swapi.co/api/films/6/",
+                "http://swapi.co/api/films/3/",
+                "http://swapi.co/api/films/2/",
+                "http://swapi.co/api/films/1/"
+            ],
+            "species": [
+                "http://swapi.co/api/species/1/"
+            ],
+            "vehicles": [
+                "http://swapi.co/api/vehicles/38/"
+            ],
+            "starships": [
+                "http://swapi.co/api/starships/48/",
+                "http://swapi.co/api/starships/59/",
+                "http://swapi.co/api/starships/64/",
+                "http://swapi.co/api/starships/65/",
+                "http://swapi.co/api/starships/74/"
+            ],
+            "created": "2014-12-10T16:16:29.192000Z",
+            "edited": "2014-12-20T21:17:50.325000Z",
+            "url": "http://swapi.co/api/people/10/",
+            "desc": [
+                "Obi-Wan \"Ben\" Kenobi is a fictional character in the Star Wars franchise. Within the original trilogy he is portrayed by Sir Alec Guinness, while in the prequel trilogy a younger version of the character is portrayed by Ewan McGregor. In the original trilogy, he is a mentor to Luke Skywalker, to whom he introduces the ways of the Jedi. In the prequel trilogy, he is a master and friend to Anakin Skywalker. He is frequently featured as a main character in various other Star Wars media.",
+                "Sir Alec Guinness's portrayal of Obi-Wan in the original Star Wars (1977) remains the only time an actor has received an Oscar nomination (Best Supporting Actor) for acting in a Star Wars film."
+            ]
+        }
+    },
+    {
+        "people": {
+            "first_name": "Anakin",
+            "last_name": "Skywalker",
+            "height": "188",
+            "mass": "84",
+            "hair_color": "blond",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "41.9BBY",
+            "gender": "male",
+            "homeworld": "http://swapi.co/api/planets/1/",
+            "films": [
+                "http://swapi.co/api/films/5/",
+                "http://swapi.co/api/films/4/",
+                "http://swapi.co/api/films/6/"
+            ],
+            "species": [
+                "http://swapi.co/api/species/1/"
+            ],
+            "vehicles": [
+                "http://swapi.co/api/vehicles/44/",
+                "http://swapi.co/api/vehicles/46/"
+            ],
+            "starships": [
+                "http://swapi.co/api/starships/59/",
+                "http://swapi.co/api/starships/65/",
+                "http://swapi.co/api/starships/39/"
+            ],
+            "created": "2014-12-10T16:20:44.310000Z",
+            "edited": "2014-12-20T21:17:50.327000Z",
+            "url": "http://swapi.co/api/people/11/",
+            "desc": [
+                "Darth Vader, also known by his birth name Anakin Skywalker, is a fictional character in the Star Wars franchise.[1][2][3] Vader appears in the original film trilogy as a pivotal antagonist whose actions drive the plot, while his past as Anakin Skywalker and the story of his corruption are central to the narrative of the prequel trilogy.",
+                "The character was created by George Lucas and has been portrayed by numerous actors. His appearances span the first six Star Wars films, as well as Rogue One, and his character is heavily referenced in Star Wars: The Force Awakens. He is also an important character in the Star Wars expanded universe of television series, video games, novels, literature and comic books. Originally a Jedi prophesied to bring balance to the Force, he falls to the dark side of the Force and serves the evil Galactic Empire at the right hand of his Sith master, Emperor Palpatine (also known as Darth Sidious).[4] He is also the father of Luke Skywalker and Princess Leia Organa, secret husband of Padmé Amidala and grandfather of Kylo Ren.",
+                "Darth Vader has become one of the most iconic villains in popular culture, and has been listed among the greatest villains and fictional characters ever.[5][6] The American Film Institute listed him as the third greatest movie villain in cinema history on 100 Years... 100 Heroes and Villains, behind Hannibal Lecter and Norman Bates.[7] However, other critics consider him a tragic hero, citing his original motivations for the greater good before his fall to the dark side.[8][9]"
+            ]
+        }
+    },
+    {
+        "people": {
+            "first_name": "Wilhuff",
+            "last_name": "Tarkin",
+            "height": "180",
+            "hair_color": "auburn, grey",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "64BBY",
+            "gender": "male",
+            "homeworld": "http://swapi.co/api/planets/21/",
+            "films": [
+                "http://swapi.co/api/films/1/",
+                "http://swapi.co/api/films/6/"
+            ],
+            "species": [
+                "http://swapi.co/api/species/1/"
+            ],
+            "vehicles": [],
+            "starships": [],
+            "created": "2014-12-10T16:26:56.138000Z",
+            "edited": "2014-12-20T21:17:50.330000Z",
+            "url": "http://swapi.co/api/people/12/",
+            "desc": [
+                "Governor Wilhuff \"Grand Moff\" Tarkin, is a fictional character in the Star Wars franchise, first portrayed by Peter Cushing in the 1977 film Star Wars. He is the commander of the Death Star, the Galactic Empire's dwarf planet-sized super weapon. The character has been called \"one of the most formidable villains in Star Wars history.\"[1]"
+            ]
+        }
+    },
+    {
+        "people": {
+            "first_name": "Chewbacca",
+            "last_name": "",
+            "height": "228",
+            "mass": "112",
+            "hair_color": "brown",
+            "eye_color": "blue",
+            "birth_year": "200BBY",
+            "gender": "male",
+            "homeworld": "http://swapi.co/api/planets/14/",
+            "films": [
+                "http://swapi.co/api/films/6/",
+                "http://swapi.co/api/films/3/",
+                "http://swapi.co/api/films/2/",
+                "http://swapi.co/api/films/1/",
+                "http://swapi.co/api/films/7/"
+            ],
+            "species": [
+                "http://swapi.co/api/species/3/"
+            ],
+            "vehicles": [
+                "http://swapi.co/api/vehicles/19/"
+            ],
+            "starships": [
+                "http://swapi.co/api/starships/10/",
+                "http://swapi.co/api/starships/22/"
+            ],
+            "created": "2014-12-10T16:42:45.066000Z",
+            "edited": "2014-12-20T21:17:50.332000Z",
+            "url": "http://swapi.co/api/people/13/",
+            "desc": [
+                "Chewbacca (/tʃuːˈbɑːkə/), nicknamed \"Chewie\", is a fictional character in the Star Wars franchise. He is a Wookiee, a tall, hirsute biped and intelligent species from the planet Kashyyyk. Chewbacca is the loyal friend and first mate of Han Solo, and serves as co-pilot on Solo's spaceship, the Millennium Falcon.[1] Within the films of the main saga, Chewbacca is portrayed by Peter Mayhew in the Star Wars on Episodes from III to VIII (Mayhew shares the role with his body double Joonas Suotamo on Episode VII and VIII). Suotamo took over the role alone in Solo: A Star Wars Story. The character has also appeared on television, books, comics, and video games."
+            ]
+        }
+    },
+    {
+        "people": {
+            "first_name": "Han",
+            "last_name": "Solo",
+            "height": "180",
+            "mass": "80",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "brown",
+            "birth_year": "29BBY",
+            "gender": "male",
+            "homeworld": "http://swapi.co/api/planets/22/",
+            "films": [
+                "http://swapi.co/api/films/3/",
+                "http://swapi.co/api/films/2/",
+                "http://swapi.co/api/films/1/",
+                "http://swapi.co/api/films/7/"
+            ],
+            "species": [
+                "http://swapi.co/api/species/1/"
+            ],
+            "vehicles": [],
+            "starships": [
+                "http://swapi.co/api/starships/10/",
+                "http://swapi.co/api/starships/22/"
+            ],
+            "created": "2014-12-10T16:49:14.582000Z",
+            "edited": "2014-12-20T21:17:50.334000Z",
+            "url": "http://swapi.co/api/people/14/",
+            "desc": [
+                "Han Solo is a character in the Star Wars franchise. In the original film trilogy, Han and his co-pilot, Chewbacca, became involved in the Rebel Alliance's struggle against the Galactic Empire. During the course of the Star Wars narrative, he becomes a chief figure in the Alliance and succeeding galactic governments. Star Wars creator George Lucas described the character as \"a loner who realizes the importance of being part of a group and helping for the common good\".[2] Harrison Ford portrayed the character in the original Star Wars trilogy as well as The Force Awakens. Alden Ehrenreich will portray a young Han Solo in Solo: A Star Wars Story."
+            ]
+        }
+    },
+    {
+        "people": {
+            "first_name": "Greedo",
+            "last_name": "",
+            "height": "173",
+            "mass": "74",
+            "skin_color": "green",
+            "eye_color": "black",
+            "birth_year": "44BBY",
+            "gender": "male",
+            "homeworld": "http://swapi.co/api/planets/23/",
+            "films": [
+                "http://swapi.co/api/films/1/"
+            ],
+            "species": [
+                "http://swapi.co/api/species/4/"
+            ],
+            "vehicles": [],
+            "starships": [],
+            "created": "2014-12-10T17:03:30.334000Z",
+            "edited": "2014-12-20T21:17:50.336000Z",
+            "url": "http://swapi.co/api/people/15/",
+            "desc": [
+                "Greedo (or Greedo the Young) is a fictional character from the Star Wars franchise. He is portrayed by Paul Blake as well as Maria De Aragon in some close-in pickup shots in Star Wars (1977). The character is part of a fan controversy known as \"Han shot first\"."
+            ]
+        }
+    },
+    {
+        "people": {
+            "first_name": "Luminara",
+            "last_name": "Unduli",
+            "height": "170",
+            "mass": "56.2",
+            "hair_color": "black",
+            "skin_color": "yellow",
+            "eye_color": "blue",
+            "birth_year": "58BBY",
+            "gender": "female",
+            "homeworld": "http://swapi.co/api/planets/51/",
+            "films": [
+                "http://swapi.co/api/films/5/",
+                "http://swapi.co/api/films/6/"
+            ],
+            "species": [
+                "http://swapi.co/api/species/29/"
+            ],
+            "vehicles": [],
+            "starships": [],
+            "created": "2014-12-20T16:45:53.668000Z",
+            "edited": "2014-12-20T21:17:50.455000Z",
+            "url": "http://swapi.co/api/people/64/"
+        }
+    },
+    {
+        "people": {
+            "first_name": "Beru",
+            "last_name": "Whitesun Lars",
+            "height": "165",
+            "mass": "75",
+            "hair_color": "brown",
+            "skin_color": "light",
+            "eye_color": "blue",
+            "birth_year": "47BBY",
+            "gender": "female",
+            "homeworld": "http://swapi.co/api/planets/1/",
+            "films": [
+                "http://swapi.co/api/films/5/",
+                "http://swapi.co/api/films/6/",
+                "http://swapi.co/api/films/1/"
+            ],
+            "species": [
+                "http://swapi.co/api/species/1/"
+            ],
+            "vehicles": [],
+            "starships": [],
+            "created": "2014-12-10T15:53:41.121000Z",
+            "edited": "2014-12-20T21:17:50.319000Z",
+            "url": "http://swapi.co/api/people/7/"
+        }
+    }
+]
